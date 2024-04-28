@@ -9,14 +9,23 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  gettext: ^1.2.0
-  google_fonts: ^6.2.0
+  get: ^4.6.6
+  google_fonts: 6.1.0
   http: ^1.2.0
+  cached_network_image: 3.3.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
 
+
 flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
   uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
